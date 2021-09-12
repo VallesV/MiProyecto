@@ -1,0 +1,98 @@
+$negro: black;
+
+body{
+    background-color:(#BA9593);
+}
+.h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.foto{
+    padding: 0%;
+    height: 350px;
+    width: 350px;
+
+}
+.textonegro{
+    color: white;
+    background-color:$negro;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.nolink{
+    text-decoration-line: none;
+}
+.compus{
+    margin:(40/2)px;
+    a{
+    text-decoration-line: none;
+    color:$negro;}
+    div{
+        
+        border-radius: 10px;
+        border-style: solid;
+        margin: 10px;
+    }
+    
+    }
+footer{
+    margin-top: 500px;
+    bottom: 0px;
+    h3{
+        text-align: center;
+    }
+    ul{
+        display:grid;
+        list-style:circle;
+    }
+    a{
+        font-size: 25px;
+        text-align: center;
+        text-decoration-line: none;
+        color: $negro;
+    }
+    li{
+        text-align: center;
+        list-style: none;
+    }
+    li:hover{
+        border-radius: 7px;
+        background-color:gray;
+    }
+}
+.fondo{
+    background-color:#061826 ;
+    border-radius: 20px;
+    margin-bottom:(5*4)px;
+    h5{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
+.img{
+    background-color: #CDF7F6;
+    border-radius: 20px;
+    // height: 100px;
+    // width: 100px;
+}
+.logo{
+    background-color: #061826;
+}
+.padding_compus{
+    background-color: #061826;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    h1{
+        color: white;
+
+    }
+}
+.precio{
+    color: white;
+    font-weight: bolder;
+}
